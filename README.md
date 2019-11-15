@@ -3,7 +3,7 @@
 
 Brayan Andrés Guevara Marquez /
 José Daniel Organista Calderón /
-María Alejandra Robayo
+María Alejandra Robayo Sepúlveda
 
 # Punto 1
 El patrón de Estrategia encapsula algoritmos alternativos (o estrategias) para una tarea en particular. Permite que un método se intercambie en tiempo de ejecución por cualquier otro método (estrategia) sin que el cliente se dé cuenta. 
