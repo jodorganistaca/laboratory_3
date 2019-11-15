@@ -1,8 +1,8 @@
 # laboratory_3
 # Integrantes
 
-Brayan Andrés Guevara Marquez
-José Daniel Organista Calderón
+Brayan Andrés Guevara Marquez /
+José Daniel Organista Calderón /
 María Alejandra Robayo
 
 # Punto 1
@@ -12,6 +12,8 @@ En este sentido, se utilizó el patrón de Strategy para calcular el tiempo y di
 La función de registro es un ayudante que recopila y muestra resultados.
 
 # Punto 2
+
+Se siguió la implementación que estaba en el repositorio de un Factory de pizzas, se creó una nueva clase para la franquicia en Medellín, y las clases necesarias para poder crear las pizzas que ésta franquicia vende (pizza hawaiana, de pepperoni, de queso y vegetariana), cada una con ingredientes característicos de Colombia
 
 # Punto 3
 Se utiliza el patrón Builder para crear carros de diferentes marcas (Mazda y Renault), se utiliza un Builder abstracto en el cual se indican los pasos a seguir para crear el carro y se utilizan 2 Builders concretos que son heredados del Builder abstracto, 1 para cada marca, donde cada uno crea un carro con las caracteristicas propias de la marca. Y la clase Fábricas es el director el cual construye un carro con las caracteristicas de la marca del Builder que tenga en el momento de llamar la funcion construirCarro y con la función getCarro se obtiene el carro de la fábrica y se puede guardar en una variable, asi como se ve en el main.
@@ -23,6 +25,6 @@ Se repite varias veces la verificación de que la puerta este cerrada lo cual ha
 Se utiliza una mala práctica llamada Código de Bloqueo en la instrucción "while (not (NIVEL_AGUA_OK))" debido a que esta bloquea el procesador hasta que se cumpla la condición para poder seguir.
 Si se implementaran más funciones de la lavadora este código tendría muchas más sentencias if y while y se repetiría mucho más código.
 # Punto 5
-
+Se implementó el diagrama de clases decorador visto en clase, y se agregaron las clases necesarias para poder proveer el nivel de sofisticación acorde a las reglas dadas, como control de la temperatura (caliente o tibio para tiempo de cocción > 2 minutos o < 2 minutos) o incluso poder agregar una figura en la parte de arriba. Finalmente se agregó un Main en donde se crean los cafés pedidos haciendo uso del patrón decorador y clases implementadas.
 
 
