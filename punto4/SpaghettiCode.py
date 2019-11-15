@@ -23,7 +23,7 @@ def main():
                     print("encender calentador")
                 else:
                     print("apagar calentador")
-                ++tiempo
+                tiempo+=1
 
         # Empezar ciclo de lavado
         tiempo = 0
@@ -32,4 +32,4 @@ def main():
                 print("encender ciclo de lavado")
             else:
                 print("apagar ciclo de lavado")
-            ++tiempo
+            tiempo+=1
